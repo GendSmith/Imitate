@@ -1,4 +1,4 @@
-package com.example.admin.imitate1;
+package com.example.admin.imitate;
 
 import org.junit.Test;
 
