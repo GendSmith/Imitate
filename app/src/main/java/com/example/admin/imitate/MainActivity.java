@@ -9,15 +9,22 @@ import android.view.View.OnClickListener;
 import android.widget.Toast;
 import android.content.Context;
 
+import com.ubtrobot.mini.action.ActionApi;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button bt1;
+    private ActionApi actionApi;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        actionApi.playAction("dance_0002",null);
+
+
 
         bt1 = (Button) findViewById(R.id.bt1);
 
